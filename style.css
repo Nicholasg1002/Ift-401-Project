@@ -5,6 +5,7 @@ font-family: Verdana, Georgia, Impact;
 width: 800px;
 margin: auto;
 padding: 0;
+box-sizing: border-box;
 color: #F8F8FF;
 }
 #header{
@@ -21,8 +22,17 @@ color: white;
 text-decoration: none;
 float: left;
 }
+logo.jpg{
+  position: right;
+  right: 50px;
+  font-size: 32px;
+  letter-spacing: 1.75px;
+  font-weight: 444;
+  text-decoration;
+  outline: transparent;
+}
 menu{
-color: black;
+color: white;
 font-family: "Verdana";
 text-decoration:none;
 margin-left: 1%;
